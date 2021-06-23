@@ -1,0 +1,23 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+@media(min-width:576px){
+
+}
+@media(min-width:768px){
+    .main{
+        flex-direction: row;
+    }
+}
+@media(min-width:992px){
+    
+}
+@media(min-width:1200px){
+
+}
+@media(min-width:1400px){
+    
+}
