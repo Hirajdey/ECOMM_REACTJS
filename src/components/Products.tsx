@@ -12,7 +12,7 @@ const Products = () => {
     const [filterValue, setfilterValue] = useState('');
 
     useEffect(() =>{
-        const filtered = products.filter((product) => product.category == filterValue);
+        const filtered = products.filter((product) => product.category == filterValue );
 
         fetchProduct("products").then(products =>{
             setCategory(products)
@@ -28,7 +28,6 @@ const Products = () => {
         
     },[products])
 
- 
     const uniqCategory:any = [];
 
     for(let i of prdCategory){
